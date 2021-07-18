@@ -2,6 +2,7 @@
 Create an Election Analysis using Python
 
 ##Overviewof Election Audit
+
 ###You have been asked to help an Election Committee to run further analysis to complete an audit from the results provided form the most recent election. The ask is to:
 •	Determine the total number of votes
 •	List the names of candidates who received votes
@@ -59,7 +60,7 @@ Create an Election Analysis using Python
 •	Provide a breakdown of the number of votes and the percentage of the total votes each candidate received
      https://github.com/abegjura/Election_Analysis/blob/main/Resources/Candidate_percentage.png   
  
- # Save the final candidate vote count to the text file.
+ Save the final candidate vote count to the text file.
     for candidate_name in candidate_votes:
 
         # Retrieve vote count and percentage
@@ -77,7 +78,7 @@ Create an Election Analysis using Python
 •	Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
     https://github.com/abegjura/Election_Analysis/blob/main/Resources/Winner.png
  
-# Determine winning vote count, winning percentage, and candidate.
+  Determine winning vote count, winning percentage, and candidate.
         if (votes > winning_count) and (vote_percentage > winning_percentage):
             winning_count = votes
             winning_candidate = candidate_name
